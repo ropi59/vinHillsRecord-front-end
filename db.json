@@ -1,0 +1,190 @@
+{
+  "top10":[
+    {
+      "id": "1254910",
+      "title": "Endtroducing",
+      "author": "DJ Shadow",
+      "genre": "Hip-Hop",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/endtroducing-cover.jpg",
+      "price": 20,
+      "sales":231
+    },
+    {
+      "id": "648438484",
+      "title": "KIDS",
+      "author": "Noga Erez",
+      "genre": "Hip-Hop",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/kids-cover.jpg",
+      "price": 20,
+      "sales":78
+    },
+    {
+      "id": "8457428",
+      "title": "The Princess",
+      "author": "Parov Stelar",
+      "genre": "Electro-swing",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/thePrincess-cover.jpg",
+      "price": 20,
+      "sales":154
+    },
+    {
+      "id": "245268724",
+      "title": "Breezeblock",
+      "author": "Alt-J",
+      "genre": "Electro",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/breezeblock-cover.jpg",
+      "price": 15,
+      "sales":421
+    },
+    {
+      "id": "54326872",
+      "title": "Tetra",
+      "author": "C2C",
+      "genre": "Electro",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/tetra-cover.jpg",
+      "price": 20,
+      "sales":167
+    },
+    {
+      "id": "46244254",
+      "title": "Stand Up",
+      "author": "Hindi Zahra",
+      "genre": "Pop",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/standUp-cover.jpg",
+      "price": 10,
+      "sales":19
+    },
+    {
+      "id": "426548622",
+      "title": "Midnight Walkers",
+      "author": "Stand High Patrol",
+      "genre": "Dub",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/midnightWalkers-cover.jpg",
+      "price": 20,
+      "sales":89
+    },
+    {
+      "id": "46254684",
+      "title": "Tadow",
+      "author": "Massego, FKJ & Lady Lady",
+      "genre": "Electro",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/tadow-cover.jpg",
+      "price": 10,
+      "sales":12
+    },
+    {
+      "id": "5468585",
+      "title": "Orange Evening",
+      "author": "DWIG",
+      "genre": "Electro",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/orangeEvening-cover.jpg",
+      "price": 20,
+      "sales":15
+    },
+    {
+      "id": "462846842",
+      "title": "Buck",
+      "author": "Daniel Norgren",
+      "genre": "Electro",
+      "description": "",
+      "coverURL": "http://localhost:3000/datas/covers/buck-cover.jpg",
+      "price": 20,
+      "sales":2
+    }
+  ]
+,
+"classics":[
+  {
+    "id": "23541684",
+    "title": "Nevermind",
+    "author": "Nirvana",
+    "genre": "Punk-Rock",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/nevermind-cover.jpg",
+    "price": 20,
+    "sales":1542
+  },
+  {
+    "id": "57154254",
+    "title": "Heroes",
+    "author": "David Bowie",
+    "genre": "Rock",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/heroes-cover.jpg",
+    "price": 20,
+    "sales":5143
+  },
+  {
+    "id": "71946824",
+    "title": "The Anthology",
+    "author": "A Tribe Called Quest",
+    "genre": "Hip-Hop",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/theAnthology-cover.jpg",
+    "price": 20,
+    "sales":154
+  },
+  {
+    "id": "24545786",
+    "title": "Ratatat",
+    "author": "Ratatat",
+    "genre": "Electro",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/ratatat-cover.jpg",
+    "price": 15,
+    "sales":421
+  }
+]
+,
+"ourSelection":[
+  {
+    "id": "785346",
+    "title": "Igor",
+    "author": "Tyler the creator",
+    "genre": "Hip-Hop",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/igor-cover.jpg",
+    "price": 20,
+    "sales":48
+  },
+  {
+    "id": "4634963726",
+    "title": "Jungle",
+    "author": "Sultana",
+    "genre": "Rock",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/jungle-cover.jpg",
+    "price": 20,
+    "sales":5143
+  },
+  {
+    "id": "5181571",
+    "title": "Muy Tranquilo",
+    "author": "Gramatik",
+    "genre": "Hip-Hop",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/muyTranquilo-cover.jpg",
+    "price": 20,
+    "sales":14
+  },
+  {
+    "id": "6158454",
+    "title": "Lifestylez ov da poor and Dangerous",
+    "author": "Big L",
+    "genre": "Hip-Hop",
+    "description": "",
+    "coverURL": "http://localhost:3000/datas/covers/lifestylezOvDaPoorAndDangerous-cover.jpg",
+    "price": 15,
+    "sales":421
+  }
+]
+}

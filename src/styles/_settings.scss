@@ -1,0 +1,56 @@
+
+$colorblack: #000000;
+$colordarkgrey: #333333;
+$colorlightgrey: #C4C4C4;
+$colorwhite: #FFFFFF;
+$colorblue: #4BD4FE;
+$coloryellow: #FFB81C;
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: $colorwhite;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $colorwhite
+}
+
+body {
+    background-color: $colordarkgrey;
+    margin: 0em;
+}
+
+.header {
+    background-color: $colorblack;
+    display:flex;  
+    height: 10em;
+    align-items: center;
+}
+
+.footer {
+    background-color: $colorwhite;
+    display: flex;
+    height: 10em;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.footerContainer {
+    background-color: $colorwhite;
+    text-align: center;
+}
+
+.logo {
+    width: 10em;
+    padding-right: 5em;
+    padding-top: 0.3em;
+}
+
+p {
+    color:$colorwhite
+}
+
+li {
+    list-style-type: none;
+}

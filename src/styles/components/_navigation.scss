@@ -1,0 +1,47 @@
+.navigation {
+    display: flex;
+  
+  a {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    
+  }
+
+  .nav-active{
+    content: "";
+    border-bottom: 0.2em solid #ffffff;  
+    
+  }
+
+  input {
+    margin: 0em;
+    background-color: $colordarkgrey;
+    border-top-right-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+    padding-bottom: 0.2em;
+    border: none;
+    color: $colorwhite;
+    font-size: 1.2em;
+    width: 10em;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .fa-magnifying-glass{
+      color:#ffffff;
+      background-color: $colordarkgrey;
+      margin-left: 1em;
+      padding-top: 0.3em;
+      padding-bottom:0.4em;
+      padding-left: 0.5em;
+      margin-right:0;
+      border-top-left-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+  }
+
+
+}

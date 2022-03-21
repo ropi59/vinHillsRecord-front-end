@@ -1,0 +1,20 @@
+@import "./settings";
+//AllPages
+@import "./components/cart";
+//header
+@import "./components/header";
+@import "./components/navigation";
+@import "./components/personnalNavigation";
+//footer
+@import "./components/footer";
+@import "./components/_socialNetworks.scss";
+@import "./components/footerLinks";
+//homepage
+@import "./pages/home";
+@import "./components/top10";
+@import "./components/top10Card";
+@import "./components/caroussel";
+@import "./components/VinylCard";
+@import "./components/VinylsHorizontalBanner";
+//page 404 not found 
+@import "./pages/notFound";

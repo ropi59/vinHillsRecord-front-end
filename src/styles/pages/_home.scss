@@ -1,0 +1,69 @@
+.homeContentUp {
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-evenly;
+    .caroussel-info {
+        text-align: center;
+        padding-top: 13em;
+        h5 {
+            margin-bottom: 0.1em;
+        }
+        p {
+            margin-top: 0.5em;
+        }
+    }
+    .caroussel {
+        margin-bottom: 1em;
+    }
+    .news-title {
+        position:absolute;
+        margin-top: -15em;
+        margin-left: 0.5em;
+    }
+    .backInStock-title {
+        position:absolute;
+        margin-top: -15em;
+        margin-left: 0.5em;
+    }
+    .aboutUsPic {
+        width: 60em;
+        position: relative;
+    }
+    .aboutUs-title {
+        position: absolute;
+        margin-top: -20em;
+        margin-left: 0.5em;
+    }
+    .seeMore {
+        height: 3em;
+        width: 7em;
+        position: absolute;
+        margin-top: 23em;
+        margin-left: -8em;
+        background-color: transparent;
+        border: 2px solid $colorwhite;
+        color:$colorwhite;
+        font-size: 1.5em;
+        &:hover {
+            background-color: $colorwhite;
+            color: $colorblack;
+        }
+    }
+}
+
+hr {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.ourSelection {
+    margin-left: 2.3em;
+    margin-bottom: -1em;
+    margin-top: 1em;
+}
+
+.classics {
+    margin-left: 2.3em;
+    margin-bottom: -1em;
+    margin-top: 1em;
+}

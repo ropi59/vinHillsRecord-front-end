@@ -1,0 +1,24 @@
+.top10Card{
+    display: flex;
+    background-color: $colorblack;
+    margin-top: 1em;
+   
+    
+    .cover{
+        width: 8.4em;
+        height: 8.4em;
+        margin-right: 1em;
+        color: $colorwhite;
+    }
+    .infoContainer{
+        color: $colorwhite;
+    }
+
+    .albumTitle {
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+    .details {
+        font-size: 0.8em;
+    }
+}

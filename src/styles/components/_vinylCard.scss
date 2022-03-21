@@ -1,0 +1,33 @@
+.vinylCard{
+    margin-left: 2em;
+    &:hover{
+        background-color: $colorblue;
+        .details-container{
+        color: $colorblack;
+        }
+    }
+}
+.cover {
+    width: 20em;
+    height: 20em;
+}
+.details-container {
+    color: $colorwhite;
+    width: 20em;
+    margin-bottom: 1em;
+}
+.albumTitle {
+    font-size: 2em;
+    font-weight: bolder;
+}
+.details {
+    font-size: 1.5em;
+}
+.addToCart {
+    background-color: transparent;
+    border-style: none;
+    font-size: 2em;
+    color:$coloryellow;
+}
+
+    
