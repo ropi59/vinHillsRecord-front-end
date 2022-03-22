@@ -5,15 +5,21 @@ import VinylCard from './VinylCard';
 
 const VinylsHorizontalBanner = (props) => {
     const [data, setData] = useState([]);
+    const [playOnce, setPlayOnce] = useState(true);
     const dbPath = (props);
     const splitedName=(JSON.stringify(dbPath).split(":"));
     const deletedquote=splitedName[1].split('"');
     useEffect(() => {
-        axios.get(
-            `http://localhost:8080/${deletedquote[1]}`
-            )
-        .then((res) => setData(res.data));
-    })
+        if(playOnce){
+            axios.get(
+                `http://localhost:8080/${deletedquote[1]}`
+                )
+            .then((res) => {
+                setData(res.data);
+                setPlayOnce(false);
+            })
+        }
+    });
 
     return (
         <div className='vinylsHorizontalBanner'>
