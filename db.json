@@ -186,5 +186,39 @@
     "price": 15,
     "sales":421
   }
+],
+"crew":[
+  {
+    "id": 1,
+    "name": "Tom",
+    "portraitURL": "http://localhost:3000/datas/crew/staff1.jpg",
+    "role": "VinHills CEO",
+    "description": "DJ and vinyls collector himself. He like every styles of music but most interested in electro musics.",
+    "selectionButtonContent": "His selection in Chicago House and Detroit techno"
+  },
+  {
+    "id": 2,
+    "name": "Alex",
+    "portraitURL": "http://localhost:3000/datas/crew/staff2.jpg",
+    "role": "Stock Manager",
+    "description": "Fan of music electronics, his thing is the synthesizers and boxes rhythms of all kinds. He is also the organizer of evenings and performs in live.",
+    "selectionButtonContent": "His selection in Electro-House and Techno-Minale made in Berlin"
+  },
+  {
+    "id": 3,
+    "name": "Cindy",
+    "portraitURL": "http://localhost:3000/datas/crew/staff3.jpg",
+    "role": "Salesperson, specialized Rock.",
+    "description": "Music lover, Cindy is a big fan of rock and its subgenres. She is also a fan of guitars and bass, she plays as a bassist in a New-Wave/Cold Wave oriented group.",
+    "selectionButtonContent": "Her selection in New-wave and Punk-rock made in UK"
+  },
+  {
+    "id": 4,
+    "name": "Chunli",
+    "portraitURL": "http://localhost:3000/datas/crew/staff4.jpg",
+    "role": "Salesperson, specialized Hip-hop.",
+    "description": "Chunli is unstoppable about hip hop. Her musical culture is solid, she is also a DJ and love scratching.",
+    "selectionButtonContent": "Her selection in Hip-hop US and Hip-hop UK"
+  }
 ]
 }

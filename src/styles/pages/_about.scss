@@ -1,0 +1,31 @@
+.about {
+    .about-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 2em;
+        margin-bottom: 5em;
+    }
+    .ourTeamPic {
+        width: 20em;
+    }
+    .crew-members{
+        margin-bottom: 10em;
+    }
+    .pic{
+        width: 10em;
+    }
+    .our-values{
+        margin: 2em;
+    }
+    .presentation {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2em;
+    }
+    .text-left{
+        margin-right: 2em;
+    }
+    .text-right{
+        margin-left: 2em;
+    }
+}
