@@ -13,6 +13,7 @@ const Cart = () => {
 
             </button>
             <div className='cartContent'>
+                <p>Your cart is empty</p>
 
             </div>
         </div>

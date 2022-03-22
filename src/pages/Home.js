@@ -1,8 +1,5 @@
-
-import { render } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
 import Caroussel, { CarousselItem } from "../components/Caroussel";
-import Cart from "../components/Cart";
 import Top10 from "../components/Top10";
 import VinylsHorizontalBanner from "../components/VinylsHorizontalBanner";
 
@@ -17,7 +14,6 @@ const Home = () => {
  
   return (
     <div className="home">
-      <Cart />
       <div className="homeContentUp">
         <div className="left-div">
           <div className="caroussel">

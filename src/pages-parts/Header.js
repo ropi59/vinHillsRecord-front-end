@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import logo_black from "../assets/logo_black.png";
 import { Link } from "react-router-dom";
 import PersonnalNavigation from "../components/PersonnalNavigation";
+import Cart from "./../components/Cart"
 
 const header = () => {  
   return (
@@ -17,6 +18,7 @@ const header = () => {
         </div>
         <div className="personnalNavContainer">
             <PersonnalNavigation />
+            <Cart />
         </div>
     </div>
   );
