@@ -19,7 +19,7 @@ const Members = ({members}) => {
                     <button className='playlist'>{members.selectionButtonContent}</button>
                 </div>
                 <div className="iconDiv">
-                    <img src={yellow_vinyl} className="iconContainer"></img>
+                    <img src={yellow_vinyl} className="iconContainer" alt="link to playlist"></img>
                 </div>
             </div>
             

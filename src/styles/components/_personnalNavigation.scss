@@ -4,6 +4,9 @@
         font-size: 1.3em;
         padding: 0.3em;
         vertical-align: middle;
+        &:hover{
+            color: $coloryellow;
+        }
     }
 
     .flagIcon {
@@ -11,4 +14,34 @@
         vertical-align: middle;
         width: 2em;
     }
+
+    .nav-menu {
+        background-color: $coloryellow;
+        width: 15em;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        position:fixed;
+        top: 0;
+        right: -15em;
+        transition: 850ms;
+    }
+    .nav-menu.active{
+        right: 0;
+        transition: 350ms;
+    }
+    .fa-solid.fa-x {
+        color: $colorblack;
+        margin-bottom: 2em;
+    }
+    span {
+        color: $colorblack;
+    }
+    .nav-menu-items {
+        text-align: left;
+        margin-left: -7em
+    }
+
+
+
 }
