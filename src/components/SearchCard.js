@@ -1,15 +1,15 @@
 import React from 'react';
 
-const VinylCard = ({albums}) => {
+const SearchCard = ({albums}) => {
     return (
-        <div className='vinylCard'>
+        <div className='searchCard'>
             <div className='cover-container'>
                 <li>
-                    <img src={albums.coverURL} alt={albums.title} className="cover">
+                    <img src={albums.coverURL} alt={albums.title} className="searchCard-cover">
                     </img>
                 </li>
             </div>
-            <div className='vinyl-details-container'>
+            <div className='details-container'>
                 <div className='listContainer'>
                     <li className='albumTitle'>{albums.title}</li>
                     <li className='details'>{albums.author}</li>
@@ -24,4 +24,4 @@ const VinylCard = ({albums}) => {
     );
 };
 
-export default VinylCard;
+export default SearchCard;

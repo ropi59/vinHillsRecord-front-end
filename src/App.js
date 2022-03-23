@@ -5,6 +5,7 @@ import Footer from './pages-parts/Footer'
 import About from './pages/About';
 import Home from './pages/Home';
 import Notfound from './pages/Notfound';
+import Search from './pages/Search';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <Routes>
       <Route path="/" exact element={<Home />} />
       <Route path="/about" exact element={<About />} />
+      <Route path="/search" element={<Search />} />
       <Route path="*" element={<Notfound />} />
     </Routes>
     <Footer />

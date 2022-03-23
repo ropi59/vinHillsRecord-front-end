@@ -1,0 +1,60 @@
+.search{
+    display: flex;
+    justify-content: space-between;
+    .searchHeader{
+        display: flex;
+        justify-content: end;
+        margin: 2em;
+        margin-right: 3em;
+    }
+    select {
+        background-color: transparent;
+        color: $colorwhite;
+        border: 1px solid $colorwhite;
+        margin-bottom: 2em;
+        height: 2.1em;
+        width: 100%;
+    }
+    option {
+        background-color: $colordarkgrey;
+    }
+    .right-part{
+        width: 100%;
+    }
+    .albumsContainer{
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    .page-selector{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 3em 2em 2em;
+    }
+    .nav-button {
+        background-color: transparent;
+        color: $colorwhite;
+        border: 1px solid $colorwhite;
+        height: 2em;
+        padding-top: 0.6em;
+        padding-bottom: 1.7em;
+        &:hover{
+            color: $colorblack;
+            background-color: $colorblue;
+        }
+    }
+    .nav-number-button{
+        background-color: transparent;
+        color: $colorwhite;
+        border: 1px solid $colorwhite;
+        height: 2em;
+        width: 2em;
+        margin: 0.2em;
+        padding-top: 0.6em;
+        padding-bottom: 1.7em;
+        &:hover{
+            color: $colorblack;
+            background-color: $colorblue;
+        }
+    }
+   
+}

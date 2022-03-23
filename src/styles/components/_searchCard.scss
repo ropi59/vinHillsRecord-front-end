@@ -1,5 +1,6 @@
-.vinylCard{
+.searchCard{
     margin-left: 2em;
+    margin-bottom: 2em;
     &:hover{
         background-color: $colorblue;
         .details-container{
@@ -7,31 +8,28 @@
         }
     }
 }
-.cover {
-    width: 20em;
-    height: 20em;
+.searchCard-cover {
+    width: 17em;
+    height: 17em;
 }
-.vinyl-details-container {
+.details-container {
     color: $colorwhite;
-    width: 20em;
+    width: 17em;
     margin-bottom: 1em;
     display: flex;
     justify-content: space-between;
 }
 .albumTitle {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bolder;
 }
 .details {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .addToCart {
     background-color: transparent;
     border-style: none;
-    font-size: 2em;
+    font-size: 1.5em;
     color:$coloryellow;
 }
 
-
-
-    

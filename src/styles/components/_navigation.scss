@@ -2,16 +2,19 @@
     display: flex;
   
   a {
-    color: #ffffff;
+    color: $colorwhite;
     font-size: 1.5em;
     text-decoration: none;
     padding: 0.5em 1.5em;
+    &:hover {
+      color: $coloryellow;
+    }
     
   }
 
   .nav-active{
     content: "";
-    border-bottom: 0.2em solid #ffffff;  
+    border-bottom: 0.2em solid $colorwhite;  
     
   }
 

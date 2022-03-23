@@ -16,7 +16,7 @@ const PersonnalNavigation = () => {
                     <NavLink to="/favorites" className="iconWhite"><i className="fa-solid fa-heart"></i></NavLink>
                     <NavLink to="#" className="iconWhite"><i className="fa-solid fa-cart-arrow-down" onClick={showCartSidebar}></i></NavLink>
                     <NavLink to="/contact" className="iconWhite"><i className="fa-solid fa-envelope"></i></NavLink>
-                    <NavLink to="/LanguageSelection"><img src={language_icon} className="flagIcon" alt="Language selection"></img></NavLink>
+                    <NavLink to="/LanguageSelection"><img src={language_icon} className="flagIcon" alt="french"></img></NavLink>
                 </nav>
                 <nav className={cartSidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items'>

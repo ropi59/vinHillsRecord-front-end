@@ -1,0 +1,75 @@
+.searchFields {
+    width: 12em;
+    margin: 2em;
+    h3{
+        font-weight: bolder;
+        font-size: 1.5em;
+    }
+    h4 {
+        color: $colorwhite;
+        margin-bottom: 0.4em;
+        font-size: 1.3em;
+    }
+    hr {
+        width: 100%;
+        margin: 0;
+        opacity: 50%;
+    }
+    input {
+        background-color: transparent;
+        color: $colorwhite;
+        border: 1px solid $colorwhite;
+        margin-bottom: 2em;
+        height: 2.1em;
+        width: 97%;
+    }
+    select {
+        background-color: transparent;
+        color: $colorwhite;
+        border: 1px solid $colorwhite;
+        margin-bottom: 2em;
+        height: 2.1em;
+        width: 100%;
+    }
+    option {
+        background-color: $colordarkgrey;
+    }
+    button {
+        background-color: transparent;
+        color: $colorwhite;
+        border: 1px solid $colorwhite;
+        margin-bottom: 2em;
+        height: 2em;
+        padding: 0.5em;
+        padding-bottom: 1.7em;
+    }
+    .search-div {
+        display: flex;
+        justify-content: start;
+    }
+    fieldset {
+        border: none;
+        color: $colorwhite;
+        font-weight: bolder;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2em;
+    }
+    .radio-input-div{
+        display: flex;
+        margin-top: 0.3em;
+    }
+    input[type=radio]{
+        margin: 0 1em 0 0;  
+        height: 1.5em;
+        width: 1em;
+    }
+    .reset{
+        margin-top: 2em;
+        width: 100%;
+        &:hover{
+            color: $colorblack;
+            background-color: $colorblue;
+        }
+    }
+}
