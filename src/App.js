@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import Notfound from './pages/Notfound';
 import Search from './pages/Search';
 import Details from './pages/Details';
+import News from './pages/News';
+import BackInStock from './pages/BackInStock';
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
     <Header />
     <Routes>
       <Route path="/" exact element={<Home />} />
+      <Route path='/news' exact element={<News />} />
+      <Route path='/back-in-stock' exact element={<BackInStock />} />
       <Route path="/about" exact element={<About />} />
       <Route path="/search" element={<Search />} />
       <Route path="/details/*" element={<Details />} />

@@ -2,6 +2,12 @@
     display: flex;
     background-color: $colorblack;
     margin-top: 1em;
+    &:hover{
+        .infoContainer{
+            color:$coloryellow;
+        }
+        
+    }
    
     .cover{
         width: 8.4em;
