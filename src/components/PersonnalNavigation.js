@@ -22,7 +22,7 @@ const PersonnalNavigation = () => {
                     <ul className='nav-menu-items'>
                         <li className='navbar-toggle'>
                             <Link to='#' className='menu-bars'>
-                                <i class="fa-solid fa-x" onClick={showCartSidebar}></i>
+                                <i className="fa-solid fa-x" onClick={showCartSidebar}></i>
                             </Link>
                             
                         </li>

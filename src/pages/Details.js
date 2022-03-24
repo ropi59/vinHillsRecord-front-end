@@ -1,23 +1,29 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
+import DetailsCard from '../components/DetailsCard';
 
-const Details = ({album}) => {
+const Details = () => {
+    const url = window.location.href
+    const path = (url.split("/"));
+    const id = path[4];
+
+    const [data, setData] = useState([]);
+    const [playOnce, setPlayOnce] = useState(true);
+    useEffect(() => {
+        if(playOnce){
+            axios.get(
+                `http://localhost:8080/ourSelection/${id}`
+            )
+            .then((res) => {
+                setData(res.data);
+                setPlayOnce(false);
+            })
+        }
+    });
+
     return (
         <div className='details'>
-            <div className='presentation-content'>
-                <div className='cover-container'>
-                    <img src={album.coverURL} alt={album.title} className="cover"></img>
-                </div>
-                <div className='descritpion-container'>
-                    <h3>{album.title}</h3>
-                    <h5>{album.author}</h5>
-                    <p>{album.description}</p>
-                </div>
-                <div className='buyIt-container'>
-
-                </div>
-
-            </div>
-            
+                <DetailsCard album={data}/>
         </div>
     );
 };

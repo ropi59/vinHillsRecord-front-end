@@ -1,0 +1,48 @@
+.detailsCard{
+    margin: 2em;
+    .presentation-content{
+        display:flex;
+    }
+    h3{
+        font-size: 1.5em;
+        margin: 0;
+    }
+    h4{
+        color: $colorwhite;
+        font-size: 1.3em;
+    }
+    p{
+        color: $colorwhite;
+    }
+    .description-container{
+        margin-left: 2em;
+    }
+    .buyIt-container{
+        width: 100em;
+        padding: 2em;
+        margin-left: 2em;
+        border: 1px solid $colorwhite;
+    }
+    span{
+        color: $colorwhite;
+    }
+    .buyIt-button{
+        width: 100%;
+        height: 2em;
+        font-size: 2em;
+        background-color: $colorwhite;
+        border: none;
+        &:hover{
+            background-color: $coloryellow;
+        }
+    }
+    .separator{
+        margin-top: 5em;
+    }
+    .suggestions-content{
+        margin-left: -2em;
+    }
+    .suggestions-content > h1{
+        text-align: center;
+    }
+}

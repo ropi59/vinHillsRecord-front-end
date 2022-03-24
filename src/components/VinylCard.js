@@ -1,11 +1,20 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 const VinylCard = ({albums}) => {
+    let navigate = useNavigate();
+    const goToDetails = () => {
+        const id = albums.id;
+        let path = `/details/${id}`;
+        navigate(path);
+        window.location.reload();
+    }
+
     return (
         <div className='vinylCard'>
-            <div className='cover-container'>
+            <div className='cover-container'onClick={goToDetails}>
                 <li>
-                    <img src={albums.coverURL} alt={albums.title} className="cover">
+                    <img src={albums.coverURL} alt={albums.title} className="cover" >
                     </img>
                 </li>
             </div>
