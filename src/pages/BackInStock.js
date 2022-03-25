@@ -3,9 +3,11 @@ import React, { useEffect, useState } from 'react';
 import SearchCard from '../components/SearchCard';
 
 const BackInStock = () => {
+    {/* page des retours récents en stock */}
     const [data, setData] = useState([]);
     const [playOnce, setPlayOnce] = useState(true);
 
+    {/* recuperation des albums retournés en stock, a gerer avec le back */}
     useEffect(() => {
         if(playOnce){
             axios.get(
@@ -22,6 +24,7 @@ const BackInStock = () => {
         <div className='search'>
             <div className='right-part'>
                 <div className='searchHeader'>
+                    {/* bouton de tri des albums selon la popularité, l'ordre alphabétique, les nouveautés... a mettre en place*/}
                     <div>
                         <select name="sort" id="sort">
                             <option value="most-relevant">Most Relevant</option>
@@ -36,10 +39,12 @@ const BackInStock = () => {
                     </div>
                 </div>
                 <div className='albumsContainer'>
+                    {/* map des albums récupérés dans des searchCards, voir combien d'albums ont affiche par page... */}
                     {data.map((albums) => (
                         <SearchCard albums={albums} key={albums.id} style={{height: "20%" , width: "20%"}}/>
                     ))}
                 </div>
+                {/* boutons de navigation des pages, a mettre en place */}
                 <div className='page-selector'>
                     <div className='previous'>
                         <button className='nav-button'><i class="fa-solid fa-angle-left"></i>  Previous</button>

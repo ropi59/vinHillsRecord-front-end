@@ -3,10 +3,12 @@ import React from 'react';
 const SearchFields = () => {
     return (
         <div className='searchFields'>
+             {/* composant pour le formulaire de recherche, a mettre en lien avec le back */}
             <h3>Filter products</h3>
             <hr/>
             <h4>You're searching for:</h4>
             <div className='search-div'>
+                 {/* champ de recherche */}
                 <div>
                     <input></input>
                 </div>
@@ -17,6 +19,7 @@ const SearchFields = () => {
                 </div>
             </div>
             <hr/>
+             {/* selection du format du vinyl (33 ou 45 tours)  */}
             <h4>Format</h4>
             <select name="format" id="format-selected">
                 <option value="any">Any</option>
@@ -24,6 +27,7 @@ const SearchFields = () => {
                 <option value="7">7"</option>
             </select>
             <hr/>
+             {/* selection du genre de l'album, recuperer tous les genres présents dans la bdd */}
             <h4>Genre</h4>
             <select name="genre" id="genre-selected">
                 <option value="any">Any</option>
@@ -31,6 +35,7 @@ const SearchFields = () => {
                 <option value="alternative-modern">Alternative / Modern</option>
             </select>
             <hr/>
+            {/* selection du label de l'album, recuperer tous les labels présents dans la bdd */}
             <h4>Label</h4>
             <select name="label" id="label-selected">
                 <option value="any">Any</option>
@@ -38,6 +43,7 @@ const SearchFields = () => {
                 <option value="be-with-records">Be With Records</option>
             </select>
             <hr/>
+            {/*  choix de la periode de sortie de l'album*/}
             <h4>Release date</h4>
             <fieldset id="search-release-period">
                 <div className='radio-input-div'>
@@ -62,6 +68,7 @@ const SearchFields = () => {
                 </div>
             </fieldset>  
             <hr/> 
+            {/* bouton pour reinitialiser les champs de recherche, a mettre en place*/}
             <button className='reset' id="reset">Reset</button>
         </div>
     );

@@ -4,9 +4,11 @@ import SearchFields from '../components/SearchFields';
 import SearchCard from '../components/SearchCard';
 
 const Search = () => {
+    {/* page de recherche d'un album*/}
     const [data, setData] = useState([]);
     const [playOnce, setPlayOnce] = useState(true);
 
+    {/* recuperation des albums, a mettre en lien avec le back*/}
     useEffect(() => {
         if(playOnce){
             axios.get(
@@ -22,11 +24,13 @@ const Search = () => {
     return (
         <div className='search'>
             <div className='left-part'>
+                {/* composant affichant les critères de recherche*/}
                 <SearchFields />
             </div>
             <div className='right-part'>
                 <div className='searchHeader'>
                     <div>
+                        {/* bouton de tri selon critères, a mettre en place*/}
                         <select name="sort" id="sort">
                             <option value="most-relevant">Most Relevant</option>
                             <option value="most-popular">Most Popular</option>
@@ -40,10 +44,12 @@ const Search = () => {
                     </div>
                 </div>
                 <div className='albumsContainer'>
+                    {/* map des albums récupérés, a mettre a jour avec le back, voir comment actualiser les datas avec la recherche et la limite d'albums a ressortir*/}
                     {data.map((albums) => (
                         <SearchCard albums={albums} key={albums.id} style={{height: "20%" , width: "20%"}}/>
                     ))}
                 </div>
+                {/* boutons de navigation de pages, a voir si necessaire de mettre en place*/}
                 <div className='page-selector'>
                     <div className='previous'>
                         <button className='nav-button'><i class="fa-solid fa-angle-left"></i>  Previous</button>

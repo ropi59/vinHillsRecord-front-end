@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import SearchCard from '../components/SearchCard';
 
 const News = () => {
+    {/* page affichant les nouveautés du site*/}
+    {/* recupération des datas*/}
     const [data, setData] = useState([]);
     const [playOnce, setPlayOnce] = useState(true);
 
@@ -23,6 +25,7 @@ const News = () => {
             <div className='right-part'>
                 <div className='searchHeader'>
                     <div>
+                        {/* bouton pour trier les albums, a mettre en place avec le back?*/}
                         <select name="sort" id="sort">
                             <option value="most-relevant">Most Relevant</option>
                             <option value="most-popular">Most Popular</option>
@@ -36,11 +39,13 @@ const News = () => {
                     </div>
                 </div>
                 <div className='albumsContainer'>
+                    {/* map des albums, voir le nombre à recuperer, le nombre a afficher par page si plusieurs pages*/}
                     {data.map((albums) => (
                         <SearchCard albums={albums} key={albums.id} style={{height: "20%" , width: "20%"}}/>
                     ))}
                 </div>
                 <div className='page-selector'>
+                    {/* boutons de navigation des pages de vinyls, a mettre en place si besoin*/}
                     <div className='previous'>
                         <button className='nav-button'><i class="fa-solid fa-angle-left"></i>  Previous</button>
                     </div>

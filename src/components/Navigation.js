@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navigation">
+       {/* liens  vers les pages nouveautés et retour en stock et champ de recherche du header */}
         <div className = "menu">
             <nav> 
                 <NavLink to="/news" className={({isActive}) => (isActive ? 'nav-active' : 'nav-inactive')}> News  </NavLink>

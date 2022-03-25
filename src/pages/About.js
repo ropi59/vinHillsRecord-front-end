@@ -7,9 +7,11 @@ import selectionPic from "./../assets/pictures/selection.jpg"
 import expertPic from "./../assets/pictures/expert.jpg"
 
 const About = () => {
+  {/* recuperation des infos de la page about us dans le back */}
   const [data, setData] = useState([]);
     const [playOnce, setPlayOnce] = useState(true);
 
+    {/* recupération des datas une seule fois */}
     useEffect(() => {
         if(playOnce){
             axios.get(
@@ -25,14 +27,17 @@ const About = () => {
     <div className="about"> 
       <div className="about-header">
         <h1>Our Team</h1>
+        {/* image de présentation de l'équipe */}
         <img src={ourTeamPic} alt="our team" className="ourTeamPic"></img>
       </div> 
       <div className="crew-members">
+        {/* récupération des membres de l'équipe et affichage dans le composant members */}
         {data.map((members) => (
           <Members  members= {members} key={members.id}/>
         ))}
       </div>
       <div className="our-values">
+        {/* présentation des valeurs de l'entreprise avec illustration (image à compresser et retailler)  */}
         <h1>Our values</h1>
         <div className="presentation">
           <div className="text-left">
