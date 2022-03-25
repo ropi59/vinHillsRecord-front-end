@@ -13,7 +13,7 @@ const About = () => {
     useEffect(() => {
         if(playOnce){
             axios.get(
-                "http://localhost:8080/crew"
+                "http://localhost:8090/crew"
             )
             .then((res) => {
               setData(res.data);

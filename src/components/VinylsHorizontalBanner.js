@@ -12,7 +12,7 @@ const VinylsHorizontalBanner = (props) => {
     useEffect(() => {
         if(playOnce){
             axios.get(
-                `http://localhost:8080/${deletedquote[1]}`
+                `http://localhost:8090/${deletedquote[1]}`
                 )
             .then((res) => {
                 setData(res.data);

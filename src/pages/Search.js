@@ -10,7 +10,7 @@ const Search = () => {
     useEffect(() => {
         if(playOnce){
             axios.get(
-                `http://localhost:8080/top10`
+                `http://localhost:8090/top10`
             )
         .then((res) => {
             setData(res.data);

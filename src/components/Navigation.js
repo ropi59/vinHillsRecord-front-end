@@ -8,7 +8,7 @@ const Navigation = () => {
             <nav> 
                 <NavLink to="/news" className={({isActive}) => (isActive ? 'nav-active' : 'nav-inactive')}> News  </NavLink>
                 <NavLink to="/back-in-stock" className={({isActive}) => (isActive ? 'nav-active' : 'nav-inactive')}> Back in stock </NavLink>
-                <i className="fa-solid fa-magnifying-glass"></i><input type = "search" placeholder= 'Search' ></input>
+                <i className="fa-solid fa-magnifying-glass"></i><input type = "text" placeholder= 'Search'></input>
             </nav>
         </div>
     </div>

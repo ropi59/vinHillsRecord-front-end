@@ -12,7 +12,7 @@ const Details = () => {
     useEffect(() => {
         if(playOnce){
             axios.get(
-                `http://localhost:8080/ourSelection/${id}`
+                `http://localhost:8090/ourSelection/${id}`
             )
             .then((res) => {
                 setData(res.data);
